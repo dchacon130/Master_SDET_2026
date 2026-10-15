@@ -1,0 +1,19 @@
+# Dependencies are installed from the lockfile, not stored in Git
+node_modules/
+# Python bytecode and virtual environments are local build output
+__pycache__/
+.venv/
+venv/
+# Playwright and test runners write reports on every execution
+test-results/
+playwright-report/
+blob-report/
+allure-results/
+allure-report/
+# Secrets and local environment overrides
+.env
+.env.*
+!.env.example
+# OS and editor noise
+.DS_Store
+Thumbs.db
