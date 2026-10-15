@@ -6,11 +6,11 @@ Local Repository: D:\SDET\Master_SDET_2026
 URL repository: https://github.com/dchacon130/Master_SDET_2026.git
 
 ## Tool Versions
-Git 2.56
-Node.js 22.12
-npm 11.14
+Git 2.56.0.windows.2
+Node.js v22.12.0
+npm 11.14.1
 Python 3.14.7
-GitHub CLI 2.93
+GitHub CLI 2.93.0
 
 ## Tool Purpose in QA Engineering
 * **Git:** Evita la pérdida de código de automatización y permite el trabajo colaborativo mediante control de versiones, ramas y revisiones de código (*Pull Requests*).

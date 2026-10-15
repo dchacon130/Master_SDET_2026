@@ -10,11 +10,11 @@ The following versions correspond to the local development environment verified 
 
 | Tool | Verification Command | Installed Version |
 | :--- | :--- | :--- |
-| **Git** | `git --version` | `2.39.5` |
-| **Node.js** | `node -v` | `v22.23.2` |
-| **npm** | `npm -v` | `10.9.8` |
-| **Python** | `python --version` | `3.12.5` |
-| **GitHub CLI** | `gh --version` | `v2.x` *(or your local version)* |
+| **Git** | `git --version` | `2.56.0.windows.2` |
+| **Node.js** | `node -v` | `v22.12.0` |
+| **npm** | `npm -v` | `11.14.1` |
+| **Python** | `python --version` | `3.14.7` |
+| **GitHub CLI** | `gh --version` | `2.93.0`  |
 
 ---
 
