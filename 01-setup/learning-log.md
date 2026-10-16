@@ -2,4 +2,4 @@
 
 - Pull request: #1
 - Merge en main: b6387d5
-- Conclusión: este merge lleva el archivo readme actualizado, información de el computador de trabajo y el archivo .gitignore se ajusto unos ultimos saltos de linea
+- Conclusión: este merge lleva el archivo readme actualizado, información de el computador de trabajo y el archivo .gitignore lleva información de que no debe subir o envíar a github y menos a main.
