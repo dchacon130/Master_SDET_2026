@@ -7,5 +7,5 @@
 ## 2026-10-15 — Lección 2.1
 
 - Pull request: #3
-- Merge en main: 
+- Merge en main: 42b9626
 - Conclusión: El en navegador hice el proceso de compra de un producto en una tienda virtual, me preguntaba si en esta pagina de pruebas pedian tarjetas de credito fake pero no piden nada de eso. 
