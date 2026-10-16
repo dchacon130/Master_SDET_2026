@@ -18,3 +18,4 @@ Cada artículo en el inventario debe mostrar su imagen descriptiva correspondien
 Todos los artículos del inventario muestran exactamente la misma imagen incorrecta (la foto de un perro).
 
 **Siguiente estado:** Fixed
+En Retest repito los cuatro pasos. Si cada producto tiene su imagen, lo paso a Closed. Si sigue el perro, lo paso a Reopened.
