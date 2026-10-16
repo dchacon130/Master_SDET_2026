@@ -32,9 +32,5 @@ El objetivo es verificar que el usuario `standard_user` en la aplicación Sauce 
   3. Hacer clic en el botón "Add to cart" del producto "Sauce Labs Backpack".
   4. Hacer clic en el ícono del carrito en la esquina superior derecha.
   5. Hacer clic en el botón "Checkout".
-  6. Completar los campos obligatorios (First Name, Last Name, Zip/Postal Code).
-  7. Hacer click en el botón "Continue".
-  8. Hacer click en Finish.
-  9. Ver el mensaje "Thank you for your order!".
 - **Resultado real:** El sistema redirige correctamente a la página "Checkout: Your Information" y los campos de formulario están visibles y habilitados.
 - **Pregunta de QA previa a la ejecución:** ¿Qué comportamiento y mensaje de error debe mostrar el sistema si el usuario intenta hacer clic en "Checkout" teniendo el carrito completamente vacío?
