@@ -22,8 +22,8 @@ The following versions correspond to the local development environment verified 
 
 | Section | Topic | Status |
 | :---: | :--- | :---: |
-| **01** | Environment Setup and Self-Taught Practice Ecosystem | 🟡 In Progress |
-| **02** | Manual Testing Fundamentals | 🔴 Pending |
+| **01** | Environment Setup and Self-Taught Practice Ecosystem | 🟢 Done |
+| **02** | Manual Testing Fundamentals | 🟡 In Progress |
 | **03** | Software Testing Techniques | 🔴 Pending |
 | **04** | API Testing, Automation & Validation | 🔴 Pending |
 | **05** | Programming Foundations & TypeScript Essentials for QA | 🔴 Pending |
