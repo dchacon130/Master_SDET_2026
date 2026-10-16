@@ -5,6 +5,7 @@
 **Estado inicial:** New
 
 **Pasos:**
+
 1. Navegar a la página de inicio de sesión de Sauce Demo (https://www.saucedemo.com/).
 2. Iniciar sesión ingresando `problem_user` en el campo de usuario y `secret_sauce` en el de contraseña.
 3. Hacer clic en el botón "Login".
@@ -16,4 +17,4 @@ Cada artículo en el inventario debe mostrar su imagen descriptiva correspondien
 **Resultado real:**
 Todos los artículos del inventario muestran exactamente la misma imagen incorrecta (la foto de un perro).
 
-**Siguiente estado:** Assigned (u Open, para que un desarrollador comience la investigación y resolución del defecto).
+**Siguiente estado:** Fixed
