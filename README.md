@@ -24,8 +24,8 @@ The following versions correspond to the local development environment verified 
 | :---: | :--- | :---: |
 | **01** | Environment Setup and Self-Taught Practice Ecosystem | 🟢 Done |
 | **02** | Manual Testing Fundamentals | 🟢 Done |
-| **03** | Software Testing Techniques | 🟡 In Progress |
-| **04** | API Testing, Automation & Validation | 🔴 Pending |
+| **03** | Software Testing Techniques | 🟢 Done |
+| **04** | API Testing, Automation & Validation | 🟡 In Progress |
 | **05** | Programming Foundations & TypeScript Essentials for QA | 🔴 Pending |
 | **06** | UI Automation: Web & Mobile Testing | 🔴 Pending |
 | **07** | Architecture & Framework Design for QA | 🔴 Pending |
