@@ -10,6 +10,6 @@
 | Escenario | Probabilidad | Impacto | Riesgo | Orden |
 | :--- | :--- | :--- | :--- | :--- |
 | `error_user` no puede terminar la compra | 3 | 3 | 9 | 1 |
-| Se abre `checkout-complete.html` sin comprar | 1 | 3 | 3 | 2 |
 | `problem_user` ve la foto del perro en todos los productos | 3 | 2 | 6 | 3 |
+| Se abre `checkout-complete.html` sin comprar | 1 | 3 | 3 | 2 |
 | Ordenar el inventario de Name (A to Z) | 3 | 1 | 3 | 4 |
