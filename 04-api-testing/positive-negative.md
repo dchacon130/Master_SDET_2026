@@ -5,7 +5,7 @@ Status code is 200
 passed
 Response has token
 failed
-Response has reason | AssertionError: expected { token: 'c3a465510b11f77' } to have property 'reason'
+Response has reason | AssertionError: expected { token: '....' } to have property 'reason'
 passed
 Response time is less than 2000ms
 
