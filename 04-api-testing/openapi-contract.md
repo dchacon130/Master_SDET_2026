@@ -11,7 +11,7 @@
 - **Conclusión:** Coincide con el contrato.
 
 ## Respuestas
-1. Al enviar el GET sin `?status=`, el servidor responde con un estado `200 OK` (normalmente devolviendo un array vacío o por defecto), ignorando que el parámetro es obligatorio. Por lo tanto, **el defecto es del producto**, ya que la implementación de la API no está respetando la validación del `400 Bad Request` que exige el contrato.
+
 2. Conservas **`firstName`**. El resultado esperado de tu test siempre debe basarse en el contrato del API que estás probando en ese momento. Si este contrato dice `firstName`, ese es tu criterio de verdad, sin importar cómo se llamen los campos en otros sistemas como Booker.
 
 ## Respuestas Corregidas
