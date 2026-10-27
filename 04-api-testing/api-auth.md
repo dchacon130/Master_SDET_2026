@@ -1,6 +1,6 @@
 1. auth: Estado 200 OK
 {
-    "token": "52163a6f21c35be"
+    "token": "token recibido"
 }
 
 2. Post Booking: Estado 200 OK
@@ -19,7 +19,9 @@
     }
 }
 
-3. Delete Booking id 4312:  Estado 201 Created
+3. Delete booking id 4312: estado 403 forbidden por que no se enviaron credenciales y no borra reserva
+
+3.1.  Delete Booking id 4312:  Estado 201 Created
 Created
 
 En la pestaña de Authorization use Basic Auth, y ahí el username y el password como una variable de entorno. 
