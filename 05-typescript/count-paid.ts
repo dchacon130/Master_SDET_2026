@@ -1,10 +1,15 @@
-import { Booking } from "./booking";
+import { Booking } from "./booking.ts";
 
-const booking1 = new Booking("Diego Chacón", 3, false);
-const booking2 = new Booking("Juan Perez", 5, true);
+const bookings = [
+    new Booking("Diego Chacón", 3, false),
+    new Booking("Juan Perez", 5, true)
+];
 
-console.log(booking1.isDepositPaid());
-console.log(booking2.isDepositPaid());
+function countPaidDeposits(bookings: Booking[]): number {
+    return bookings.filter(booking => booking.isDepositPaid()).length;
+}
+
+console.log(countPaidDeposits(bookings));
 
 /**
  * Respuesas: 
