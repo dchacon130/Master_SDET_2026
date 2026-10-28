@@ -26,7 +26,7 @@ console.log(countPaidDeposits(bookings));
 /**
  * Respuestas: 
  * 
- * 1. Se debería presentar un error por el tipo de dato en nights
+ * 1. * 1. El error está en el campo nights del objeto. "3" es texto y la interfaz pide number.
  * 2. Cambio la llamada. El parámetro sigue siendo Booking[]. Envío un arreglo con una sola reserva
  * 
  */
