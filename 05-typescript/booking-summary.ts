@@ -2,8 +2,6 @@ let firstName: string;
 let nights: number;
 let depositPaid: boolean;
 
-const status: "available" | "pending" | "sold" = "flying"
-
 function bookingSummary(firstName: string, nights: number, depositPaid: boolean): string {
 
     if (depositPaid) {
@@ -15,4 +13,3 @@ function bookingSummary(firstName: string, nights: number, depositPaid: boolean)
 }
 
 console.log(bookingSummary("Diego Chacón", 3, false));
-console.log(status);
