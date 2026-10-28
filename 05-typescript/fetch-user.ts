@@ -21,6 +21,6 @@ console.log(await fetchFirstName());
  */
 
 /**
- * 1.  Por que son dependencias de desarrollador. 
+ * * 1. Node ejecuta fetch-user.ts e imprime a Janet sin importar typescript. Es una herramienta para quien escribe el código, así que va en devDependencies.
  * 2. se reconstruye con el comando npm install
  */
