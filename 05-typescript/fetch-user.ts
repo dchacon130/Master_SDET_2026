@@ -11,6 +11,16 @@ console.log(await fetchFirstName());
 /**
  * Preguntas: 
  * 
- * 1. Se imprime una Promise (en estado pending). Al quitar el await, la ejecución no espera la respuesta HTTP. (Nota: el script fallaría en la línea siguiente, porque una Promesa no tiene el método .json()).
- * 2. Le falta el await (ej. console.log(await fetchFirstName());) o encadenar un .then(). Como fetchFirstName está declarada como async, siempre retorna una Promesa de forma síncrona; necesitas decirle a JavaScript que espere a que esa Promesa se resuelva para obtener el string.
+ * 1. Se imprime una Promise (en estado pending). 
+ * Al quitar el await, la ejecución no espera la respuesta HTTP. 
+ * (Nota: el script fallaría en la línea siguiente, porque una Promesa no tiene el método .json()).
+ * 
+ * 2. Le falta el await (ej. console.log(await fetchFirstName());) o encadenar un .then(). 
+ * Como fetchFirstName está declarada como async, siempre retorna una Promesa de forma síncrona; 
+ * necesitas decirle a JavaScript que espere a que esa Promesa se resuelva para obtener el string.
+ */
+
+/**
+ * 1.  Por que son dependencias de desarrollador. 
+ * 2. se reconstruye con el comando npm install
  */
