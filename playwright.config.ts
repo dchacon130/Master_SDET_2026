@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './tests',
+  testDir: './06-ui-automation',
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -78,7 +78,7 @@ export default defineConfig({
   // },
   /**
    * Respuestas: 
-   * 1. debera ejecutar la instalación de los browsers con estos comandos npx playwright install webkit, firefox, chromium. 
+   * 1. debera ejecutar la instalación de los browsers con estos comandos npx playwright install. 
    * 2. No lo ejecuta por que la ruta de testDir es el unico lugar donde va a ir a buscar archivos *.spec.ts
    */
 });
