@@ -12,3 +12,11 @@ export class Booking {
         return this.depositPaid;
     }
 }
+
+/**
+ * Linea de error: 05-typescript/booking.ts(12,9): error TS2322: Type 'string' is not assignable to type 'boolean'.
+ * 
+ * Respuestas: 
+ * 1. Estaba en la llamada anterior. 
+ * 2. el comando del check.
+ */
