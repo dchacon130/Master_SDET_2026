@@ -4,7 +4,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "fetch-user": "node --experimental-strip-types 05-typescript/fetch-user.ts"
+        "fetch-user": "node --experimental-strip-types 05-typescript/fetch-user.ts",
+        "check": "tsc --pretty false"
     },
     "devDependencies": {
         "typescript": "^7.0.2"
