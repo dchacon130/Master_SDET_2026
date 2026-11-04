@@ -26,8 +26,8 @@ The following versions correspond to the local development environment verified 
 | **02** | Manual Testing Fundamentals | 🟢 Done |
 | **03** | Software Testing Techniques | 🟢 Done |
 | **04** | API Testing, Automation & Validation | 🟢 Done |
-| **05** | Programming Foundations & TypeScript Essentials for QA | 🟡 In Progress |
-| **06** | UI Automation: Web & Mobile Testing | 🔴 Pending |
+| **05** | Programming Foundations & TypeScript Essentials for QA | 🟢 Done |
+| **06** | UI Automation: Web & Mobile Testing | 🟡 In Progress |
 | **07** | Architecture & Framework Design for QA | 🔴 Pending |
 | **08** | CI/CD, Infrastructure & Containers | 🔴 Pending |
 | **09** | Observability, Reporting & Monitoring | 🔴 Pending |
