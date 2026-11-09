@@ -23,7 +23,7 @@ test('Add to cart', async ({ page }) => {
   
   /**
    * Respuestas: 
-   * 1. Ese wait lo hace playwright y la configuración que tiene en playwright.config.ts
+   * 1. * 1. Espera la aserción toHaveURL. Reintenta hasta que la URL contiene inventory.html.
    * 2. El botón cambia de nombre a Remove, y también se agrega un producto al icono del carrito. 
    */
   
