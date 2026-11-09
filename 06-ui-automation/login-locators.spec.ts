@@ -11,5 +11,5 @@ test('Validate login elements are visible', async ({ page }) => {
   /**
    * Respuestas: 
    * 1. El elemento sigue teniendo el mismo nombre visible entonces debe usar getByLabel.
-   * 2. Para seleccionar uno de los cuadros usando el botón de add to cart, usaría la función filter. 
-   */
+   * 2. Filtro el producto que contiene el texto Sauce Labs Backpack y, dentro de ese bloque, busco el botón Add to cart.
+   * */
