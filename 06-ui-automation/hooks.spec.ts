@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.beforeAll(async ({ page }) => {
+test.beforeEach(async ({ page }) => {
     await page.goto('https://www.saucedemo.com/');
     await page.getByRole('textbox', { name: 'Username' }).fill('standard_user');
     await page.getByRole('textbox', { name: 'Password' }).fill('secret_sauce');
@@ -23,7 +23,7 @@ test('Comprueba si el carrito contiene 1', async ({ page }) => {
 });
 
 test('comprueba que el carrito no tiene agregado ningun producto', async ({ page }) => {
-    await expect(page.locator('[data-test="shopping-cart-link"]')).toBeEmpty();
+    await expect(page.locator('.shopping_cart_badge')).toHaveCount(0);
 });
 
 /**
