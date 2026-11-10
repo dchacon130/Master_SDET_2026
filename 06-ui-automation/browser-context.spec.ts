@@ -19,7 +19,10 @@ test('Test with browser no page', async ({ page, browser }) => {
         .getByRole('button', { name: 'Remove' })
     ).toBeVisible();
 
-    await expect(buyer.locator('[data-test="shopping-cart-link"]')).toContainText('1');
+    const pageSession = await buyer.context().newPage();
+    await pageSession.goto('https://www.saucedemo.com/inventory.html');
+    await expect(pageSession.locator('[data-test="shopping-cart-link"]')).toContainText('1');
+    await pageSession.close();
 
     const guestContext = await browser.newContext();
     const guest = await guestContext.newPage();
@@ -37,5 +40,7 @@ test('Test with browser no page', async ({ page, browser }) => {
  * 1. Por que se creo un Context aparte para cada test, en uno se hace el login y se agrega el producto al carrito, 
  * en el otro context solo validamos el botón, y viendo la ejecución con UI veo como se abren dos navegadores diferentes.
  * 
- * 2. No ve el badge 1, se abre una nueva pagina pero en blanco y no puede ir a la web
+ * 2. Sí ve el badge 1. newPage() es otra pestaña del mismo contexto. 
+ * Empieza en blanco y, después de goto, comparte el carrito.
+ * 
  */
