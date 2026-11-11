@@ -34,6 +34,6 @@ test('comprueba que el carrito no tiene agregado ningun producto', async ({ page
  * Error: "context" and "page" fixtures are not supported in "beforeAll" 
  * 
  * Respuesta de trace viewer
- * 1. si queda el registro de el error como si viera el UI por medio de una pelicula.
+ * 1. No queda un trace.zip. on-first-retry solo graba si el runner repite la prueba, y en local retries es 0.
  * 2. por que solo va a guardar el trace cuando alguna prueba falla.
  */
