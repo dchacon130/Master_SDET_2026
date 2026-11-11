@@ -32,4 +32,8 @@ test('comprueba que el carrito no tiene agregado ningun producto', async ({ page
  * 1. corre una vez por cada prueba, entonces sin --project serían 6 logins 
  * 2. por que beforeall corre para todos los tests, incluidos los que creamos con nuevos contextos
  * Error: "context" and "page" fixtures are not supported in "beforeAll" 
+ * 
+ * Respuesta de trace viewer
+ * 1. No queda un trace.zip. on-first-retry solo graba si el runner repite la prueba, y en local retries es 0.
+ * 2. por que solo va a guardar el trace cuando alguna prueba falla.
  */
