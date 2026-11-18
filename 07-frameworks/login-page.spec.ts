@@ -20,7 +20,7 @@ test.describe('Testing POM en login de saucedemo', () => {
 /**
  * Respuestas: 
  * 1. login() no afirma el Epic sadface. ¿Por qué la afirmación se queda en el spec?
- * R: por que los resultados esperados siempre son en el spec
+ * R: login() lo usan las dos pruebas y cada una espera un resultado distinto. Si login() afirmara el Epic sadface, la prueba de standard_user fallaría.
  * 2. Cambias el localizador del botón dentro de LoginPage. ¿Cuántos spec tienes que abrir para que las dos pruebas usen el botón nuevo?
  * R: ninguna, con cambiar el localizador en la clase, se cambia para todos los que usan ese localizador.
  */
