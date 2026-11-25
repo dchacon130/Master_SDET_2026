@@ -38,7 +38,8 @@ test.describe('Haciendo uso de fixture', () => {
  * R: ninguna, con cambiar el localizador en la clase, se cambia para todos los que usan ese localizador.
  * 
  * Respuestas de fixture: 
- * 1. No carga la pagina por que no se ha llamado open ni se a creado la conexión a la clase LoginPage
+ * 1. Falla la prueba de locked_out_user. El fixture ya entró como standard_user, 
+ * la página está en inventory y el Epic sadface no aparece.
  * 2. No comparte las cookies por que se crea un page separado para cada prueba
  * 3. Se genera un error de duplicados.
  */
