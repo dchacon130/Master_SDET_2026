@@ -41,5 +41,5 @@ test.describe('Haciendo uso de fixture', () => {
  * 1. Falla la prueba de locked_out_user. El fixture ya entró como standard_user, 
  * la página está en inventory y el Epic sadface no aparece.
  * 2. No comparte las cookies por que se crea un page separado para cada prueba
- * 3. Se genera un error de duplicados.
+ * 3. Playwright avisa que el fixture loginPage no está registrado. Ese test no lo conoce; loginPage solo existe en el test de login.fixture.ts.
  */
